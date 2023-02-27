@@ -1,0 +1,484 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+     background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tablet-hero{
+    display: none;
+}
+.map{
+    display: block;
+}
+
+.article{
+    margin: 32px 16px 120px 16px;
+}
+
+.desktop-hero{
+    display: none;
+}
+
+.modern{
+    font-family:"Big Shoulders Display";
+    font-size:60px;
+    line-height: 55px;
+    color: #151515;
+    font-weight: 900;
+}
+
+.the-arts{
+   font-family:"Outfit";
+   font-size: 18px;
+   line-height: 28px;
+   color: #444444;
+   font-weight: 300;
+   margin-top: 32px;
+   margin-bottom: 32px;
+}
+
+.line{
+    text-decoration: none;
+}
+
+
+.location{
+    width: 204px;
+    font-family: Big Shoulders Display;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 800;
+    background-color:#151515 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3.5px;
+}
+
+.symbol{
+    width: 56px;
+    height: 72px;
+    background-color: #D5966C;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:24px;
+}
+
+.location-bottom{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.mobile-grid{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.tablet-grid{
+    display: none;
+}
+
+.desktop-grid{
+    display: none;
+}
+
+.gallery{
+    margin:25px 16px 32px 16px;
+}
+
+.at-gallery{
+    font-family:"Big Shoulders Display" ;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    color: #151515;
+    margin-top: 25px;
+}
+
+.distinct-collections{
+    font-family:"Outfit";
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    font-weight: 300;
+    margin-top: 21px;  
+}
+
+.photo-container{
+    margin: 32px 16px 120px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.tablet-grid2{
+    display: none;
+}
+
+.desktop-grid2{
+    display: none;
+   }
+ 
+.tablet-grid3{
+    display: none;
+}
+
+.desktop-grid3{
+    display: none;
+}
+ 
+ .inspired{
+    width: 343px;
+    background-color: #151515;
+
+    padding: 48px 24px;
+ }
+
+.come{
+    font-family:"Big Shoulders Display";
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+.welcome{
+    font-family: "Outfit";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer-container{
+    
+    background-color: #151515;
+    padding: 48px 32px 50px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 38px;
+}
+
+.art{
+    font-family: "Big Shoulders Display";
+    width: 110px;
+    height: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.vizitor{
+    font-family:"Outfit";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color:#FFFFFF;
+}
+
+.instagram{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* location page */
+@media screen  and (min-width: 768px){
+
+    .header{
+       display: flex;
+       flex-direction: row;
+    }
+
+    .mobile-hero{
+        display: none;
+    }
+
+    .tablet-hero{
+        display: block;
+    }
+
+    .desktop-hero{
+        display: none;
+    }
+ 
+    .article{
+        margin-left: -45px;
+        margin-top: 145px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .at-gallery{
+        width: 223px;
+    }
+
+    .distinct-collections{
+        width: 223px;
+
+    }
+
+    .photo-gallery{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        margin-top: 120px;
+        
+    }
+
+    .mobile-grid{
+        display: none;
+    }
+     
+    .tablet-grid{
+        display: block;
+    }
+
+    .desktop-grid{
+        display: none;
+    }
+
+    .photo-container{
+        display:flex;
+        flex-direction: row;
+        gap: 11px;
+        margin: 11px 40px 120px 40px;
+    }
+
+    .mobile-grid2{
+        display: none;
+    }
+
+   .tablet-grid2{
+        display: block;
+   }
+
+   .desktop-grid2{
+        display: none;
+   }
+    
+   .desktop-grid3{
+        display: none;
+    }
+
+    .mobile-grid3{
+        display: none;
+    }
+
+    .tablet-grid3{
+        display: block;
+    }
+
+    .inspired{
+        width: 280px;
+        height: 396px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+   
+    .welcome{
+        font-size: 20px;
+    }
+
+    .footer-container{
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+
+    .logo-container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+
+    }
+    
+    .vizitor{
+      width: 281px;
+      height: 104px;
+      margin-right: 70px;
+    }
+}
+  
+/* desktop page */
+@media screen  and (min-width: 1440px){
+    .black-space{
+        width: 60%;
+       background-color: #151515;
+    }
+
+    .header-photo{
+        background-color: #151515;
+    }
+
+    .article{
+        display: flex;
+        margin-left: 167px;
+        position: absolute;
+        align-items: flex-start;
+        gap: 267px;
+        justify-content: flex-end;
+   
+
+    }
+
+    .location-bottom{
+        margin-right: 85px;
+        margin-top: -60%;
+    }
+
+    .modern{
+        width: 514px;
+        font-size: 96px;
+        line-height: 88px;
+        text-transform: uppercase;
+        mix-blend-mode: difference;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 32px;
+    }
+
+    .the-arts{
+        width: 350px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .desktop-hero{
+        display: block;
+        margin-left: 90%;
+    }
+
+
+
+    .mobile-hero{
+        display: none;
+    }
+
+    .tablet-hero{
+        display: none;
+    }
+
+    .at-gallery{
+        width: 350px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .distinct-collections{
+        width: 350px;
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 32px;
+    }
+
+    .come{
+        width: 350px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .welcome{
+        width: 350px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .art{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .vizitor{
+        width:430px ;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .inspired{
+        width: 445px;
+        padding: 65px 45px;
+    }
+
+    .photo-container{
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .right-container{
+        gap: 30px;
+    }
+
+    .photo-gallery{
+        gap: 58px;
+    }
+
+    .footer-container{
+        padding: 80px 165px ;
+    }
+
+    .desktop-grid{
+        display: block;
+    }
+
+    .mobile-grid{
+        display: none;
+    }
+     
+    .tablet-grid{
+        display: none;
+    }
+
+    .desktop-grid2{
+        display: block;
+    }
+
+    .tablet-grid2{
+        display: none;
+    }
+
+    .mobile-grid2{
+        display: none;
+    }
+
+    .desktop-grid3{
+        display: block;
+    }
+
+    .mobile-grid3{
+        display: none;
+    }
+
+    .tablet-grid3{
+        display: none;
+    }
+
+}
+    
+
+
+
+
+
+  
+
+

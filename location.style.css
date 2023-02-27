@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-image: url(./assets/mobile/image-map.png);
+    background-repeat: no-repeat; */
+}
+
+.map{
+    height: 100%;
+}
+
+.tablet-map{
+    display: none;
+}
+
+.desktop-map{
+    display: none;
+
+}
+
+.location{
+    width: 204px;
+    font-family: Big Shoulders Display;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 800;
+    background-color:#151515 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3.5px;
+}
+
+.symbol{
+    width: 56px;
+    height: 72px;
+    background-color: #D5966C;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:24px;
+}
+
+.line{
+    text-decoration: none;
+}
+
+.location-bottom{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    
+}
+
+.our-location{
+    font-family: "Big Shoulders Display";
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.street{
+    font-family: "Big Shoulders Display";
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    color: #D5966C;
+}
+
+.newport{
+    font-family:"Outfit";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.open-gallery{
+    font-family:"Outfit";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.main{
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 48px 16px 56px 16px;
+}
+
+.right-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-container{
+    background-color:#D5966C ;
+    padding: 48px 32px 48px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+}
+
+.right-footer-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+.art{
+    font-family: "Big Shoulders Display";
+    width: 110px;
+    font-weight: 900;
+    color: #151515;
+}
+
+.vizitor{
+    font-family:"Outfit";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color:#151515;
+}
+
+
+.instagram{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 68px;
+        padding: 88px 40px 80px 40px;
+    }
+
+    .our-location{
+        width: 223px;
+        height: 100px;
+        display: flex;
+    }
+
+    .tablet-map{
+        display: block;
+    }
+
+    .map{
+        display: none;
+    }
+
+    .desktop-map{
+        display: none;
+    }
+
+    .location-bottom{
+        margin-left: 60px;
+    }
+
+    .right-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .open-gallery{
+        width: 398px;
+    }
+
+    .footer-container{
+        display: flex;
+        padding: 56px 40px;
+    }
+    
+    .vizitor{
+        width: 281px;
+    }
+
+    .right-footer-cont{
+        display: flex;
+        flex-direction: row;
+        gap: 133px;
+    }
+}
+    
+/* desktop-location */
+@media screen and (min-width: 1440px){
+    .main{
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-between; */
+        gap: 220px;
+        padding: 104px 165px 128px 165px;
+    }
+
+    .tablet-map{
+        display: none;
+    }
+
+    .map{
+        display: none;
+    }
+
+    .desktop-map{
+        display: block;
+    }
+
+    .our-location{
+        width: 350px;
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .location-bottom{
+        margin-left: 160px;
+    }
+
+
+    .footer-container{
+        gap: 140px;
+        padding: 80px 165px;
+    }
+
+    .right-footer-cont{
+        gap: 280px;
+    }
+
+    /* .art{
+        width: 160px;
+    } */
+    .vizitor{
+        width:430px ;
+        height: 84px;
+        font-size: 18px;
+    }
+
+    .street{
+        width: 350px;
+        font-size: 36px;
+        line-height: 36px;
+    }
+    
+    .newport{
+        width: 445px;
+        font-size: 22px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    
+    .open-gallery{
+        width: 540px;
+        font-size: 22px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+}
+    
+
+
+
