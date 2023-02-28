@@ -336,16 +336,16 @@ body{
         position: absolute;
         align-items: flex-start;
         gap: 267px;
-        justify-content: flex-end;
+        
    
 
     }
 
     .location-bottom{
-        margin-right: 85px;
-        margin-top: -60%;
+        margin-top: -205px;
+        margin-left: 778px;
     }
-
+    
     .modern{
         width: 514px;
         font-size: 96px;
@@ -416,20 +416,24 @@ body{
     }
 
     .inspired{
-        width: 445px;
+        width: 480px;
         padding: 65px 45px;
     }
 
     .photo-container{
         gap: 30px;
         margin-top: 30px;
+        margin-left: 165px;
+        margin-right: 165px;
     }
     .right-container{
         gap: 30px;
     }
 
     .photo-gallery{
-        gap: 58px;
+        gap: 125px;
+        margin-right: 165px;
+        margin-left: 165px;
     }
 
     .footer-container{
@@ -462,6 +466,7 @@ body{
 
     .desktop-grid3{
         display: block;
+        width: 480px;
     }
 
     .mobile-grid3{
